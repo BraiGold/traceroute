@@ -1,3 +1,13 @@
+#Traceroute
+
+trabajo practico de Redes
+
+Se implementa un traceroute usando la libreria scapy (python).
+Se analizan las rutas recorridas y se utilizan metodos de deteccion de outliers y mapas para detectar enlaces interoceanicos.
+
+para mas detalle ver el [Informe](https://gitlab.com/atun/traceroute-redes/blob/master/informe_Tp2_Redes.pdf)
+
+
 -La carpeta capturas tiene las capturas (en formato csv) de los RTTs de las 3 rutas analizadas
 -La carpeta codigo tiene:
 	-tracerouteICMP.py , este genera las capturas de RTT en formato csv, pero no es necesario llamarlo explicitamente ya que se ejecuta indirectamente desde 'ejercicioAyB.py', la ruta a analizar hay que si escribirla a mano en este archivo
